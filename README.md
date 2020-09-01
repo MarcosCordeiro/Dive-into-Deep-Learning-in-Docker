@@ -17,5 +17,5 @@ Abra seu browser e digite `` http://localhost:8888 ``
 ### Dica
 - Se for salvar alguma modificação ou novo arquivo, salve na pasta  do livro (*d2l-en*), caso contrário você poderá perder seus notebooks caso o container morra.
 
-- ** Instação do Docker:  ** [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
+- **Instação do Docker:** [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
