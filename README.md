@@ -4,7 +4,7 @@ Abaixo estão as instruções para utilização dos exemplos do livro [Dive into
 
 ## Instruções
 
-### 1 - Fazer download o Projeto
+### 1 - Fazer download do Projeto
 ### 2 - Entrar na pasta
 ### 3 - Criar imagem docker
 `` docker build -t minijupyter - < Dockerfile  ``
