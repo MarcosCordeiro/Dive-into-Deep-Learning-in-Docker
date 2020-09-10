@@ -19,6 +19,10 @@ Abra seu browser e digite `` http://localhost:8888 ``
 
 - **Instação do Docker:** [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
-- **Usuários Windows:** Para usuários Windows, precisa alterar a forma de acessar o caminho da pasta d2l-en no parâmentro -v (volume). Precisa passar o caminho completo da pasta. Exemplo. Se o caminho for ``C:\\d2l-en``, trocar por ``//C/d2l-en``. ``-v //C:/d2l-en:/opt/notebooks/d2l-en minijupyter`` . Outra alternativa é utilizar o PowerShell e trocar o ``$PWD`` por ``$(pwd)``. Exemplo ``-v $(pwd)/d2l-en:/opt/notebooks/d2l-en``.
+- **Usuários Windows:** Para usuários Windows, precisa habilitar o compartilhamento de arquivos nas configurações do docker.
+https://token2shell.com/howto/docker/sharing-windows-folders-with-containers/#:~:text=In%20order%20to%20share%20Windows,v%22%20(volume)%20flag.
+
+Precisa alterar também a forma de acessar o caminho da pasta d2l-en no parâmentro -v (volume). Precisa passar o caminho completo da pasta. Exemplo. Se o caminho for ``C:\\d2l-en``, trocar por ``//C/d2l-en``. ``-v //C:/d2l-en:/opt/notebooks/d2l-en minijupyter`` . Outra alternativa é utilizar o PowerShell e trocar o ``$PWD`` por ``$(pwd)``. Exemplo ``-v $(pwd)/d2l-en:/opt/notebooks/d2l-en``.
 Esse post fala sobre essas configurações: https://medium.com/@kale.miller96/how-to-mount-your-current-working-directory-to-your-docker-container-in-windows-74e47fa104d7
+
 
