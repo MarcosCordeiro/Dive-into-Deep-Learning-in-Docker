@@ -10,7 +10,7 @@ Abaixo estão as instruções para utilização dos exemplos do livro [Dive into
 `` docker build -t minijupyter - < Dockerfile  ``
 ### 4 - Executar o container
 `` docker container run -d -p 8888:8888 --name=minijupyter  -v "$PWD"/d2l-en:/opt/notebooks/d2l-en minijupyter ``
-**Para windows, rodar seguinte comando no PowerShell:** docker container run -d -p 8888:8888 --name=minijupyter --restart always -v "$(pwd)\d2l-en:/opt/notebooks/d2l-en" minijupyter
+**Para windows, rodar seguinte comando no PowerShell:** `` docker container run -d -p 8888:8888 --name=minijupyter --restart always -v "$(pwd)\d2l-en:/opt/notebooks/d2l-en" minijupyter ``
 ### 5 - Acessar o Jupyter Notebook
 Abra seu browser e digite `` http://localhost:8888 ``
 
