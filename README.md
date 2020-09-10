@@ -26,7 +26,7 @@ Precisa alterar também a forma de acessar o caminho da pasta d2l-en no parâmen
 Esse post fala sobre essas configurações: https://medium.com/@kale.miller96/how-to-mount-your-current-working-directory-to-your-docker-container-in-windows-74e47fa104d7
 
 - **Comandos básicos:** 
-listar o container - docker container listar
-inicar container - docker container start minijupyter
-parar container - docker container stop minijupyter
-remover container - docker container rm -f minijupyter
+- listar o container - docker container listar
+- inicar container - docker container start minijupyter
+- parar container - docker container stop minijupyter
+- remover container - docker container rm -f minijupyter
